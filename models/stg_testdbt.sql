@@ -1,0 +1,1 @@
+with stg_testdbt as (select * from test_dbt) select * from stg_testdbt
