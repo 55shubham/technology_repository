@@ -1,1 +1,4 @@
-with stg_testdbt as (select * from test_dbt) select * from stg_testdbt
+with stg_testdbt as 
+(select * from dbtarsul.test_dbt)
+ select * from stg_testdbt
+ 
